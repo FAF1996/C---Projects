@@ -18,21 +18,21 @@ int main(){
                  area =3.1416*radius* radius;
                  cout <<"the area of the circle is :" << area << endl;
               }
-            if (choice ==2){
+            else if (choice ==2){
                 cout << " enter the side of square " << endl;
                 double side;
                 cin >> side;
                  area =side* side;
                  cout <<"the area of the square is :" << area << endl;
               }
-            if (choice ==3){
+            else if (choice ==3){
                 cout << " enter the length and breadth of rectangle " << endl;
                 double length, breadth;
                 cin >> length >> breadth;
                  area =length* breadth;
                  cout <<"the area of the rectangle is :" << area << endl;
               }
-              if (choice ==4){
+              else if (choice ==4){
                 cout << " enter the base and height of triangle " << endl;
                 double base, height;
                 cin >> base >> height;
